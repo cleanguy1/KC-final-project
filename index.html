@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>student Timer</title>
+</head>
+
+<body>
+    <div class="timer">
+        <div class="display">
+            <div id="time">00:00:00</div>
+        </div>
+        <div class="controls">
+            <button id="startStop" onclick="startTimer()">Start</button>
+            <button id="reset" onclick="stopTimer()">stopTimer</button>
+            <button id="lap" onclick="resetTimer()">Lap</button>
+        </div>
+        <div class="laps">
+            <ol id="lapList"></ol>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

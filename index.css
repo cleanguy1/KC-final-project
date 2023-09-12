@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.timer {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.display {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#startStop {
+    background-color: #008000;
+    color: #fff;
+}
+
+button#reset {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+button#lap {
+    background-color: #333;
+    color: #fff;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    padding-left: 0;
+}
